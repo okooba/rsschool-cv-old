@@ -3,7 +3,7 @@
 **phone number: +79292572704**  
 **email: okooba1@gmail.com**  
 ### **About me:**  
-  Currently I study for engineer at the NUST UNIVERSITY MISiS, also I study at the Brigham Young University for Information Technologies. In my free time, I like to play tennis, I'm really big fan of this sport. Few years ago I decided to build a career in IT industry, and now I'm looking for any opportunities to start.
+  Currently I study for engineer at the NUST UNIVERSITY MISiS, also I study at the Brigham Young University for Information Technologies. In my free time, I like to play tennis, I'm really big fan of this sport. Few years ago I decided to build a career in IT industry, and now I'm looking for any opportunities to start. 
 ### **My skills:**  
 1. **Python**
 2. **JavaScript**
