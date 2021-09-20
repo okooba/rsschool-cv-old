@@ -34,66 +34,94 @@ body
     padding: 40px;
 }
 
+    .profileText
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .profileText .imgBx
+    {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .profileText .imgBx img
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .profileText h2
+    {
+        color: #fff;
+        font-size: 1,5em;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1,4em;
+    }
+    .profileText h2 span
+    {
+        font-size: 0,8em;
+        font-weight: 300;
+    }
+    .contactInfo
+    {
+        padding-top: 40px;
+    }
+    .contactInfo .title
+    {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .contactInfo ul
+    {
+        position: relative;   
+    }
+    .contactInfo ul li
+    {
+        color: #fff;
+        position: relative;
+        list-style: none;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .contactInfo.education h5
+    {
+        color: #03a9f4;
+        font-weight: 500;
+    }
+    .contactInfo.education h4
+    {
+        color: #fff;
+        font-weight: 500;
+    }
+    .contactInfo.language .percent
+    {
+        position: relative;
+        width: 100;
+        height: 6px;
+        background: #f00;
+        display: block;
+        margin-top: 5px;
+    }
 
-.profileText
-{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.profileText .imgBx img
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: hidden;
-}
-.profileText h2
-{
-    color: #fff;
-    font-size: 1,5em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1,4em;
-}
-.profileText h2 span
-{
-    font-size: 0,8em;
-    font-weight: 300;
-}
-.contactInfo
-{
-    padding-top: 40px;
-}
-.title
-{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-.contactInfo ul
-{
-    position: relative;   
-}
-.contactInfo ul li
-{
-    position: relative;
-    list-style: none;
-    margin: 10px;
-    cursor: pointer;
-}
-.container .right_Side
-{
-    position: relative;
-    background: #fff;
-    padding: 40px;
-}
+    .container .right_Side
+    {
+        position: relative;
+        background: #fff;
+        padding: 40px;
+    }
