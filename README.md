@@ -1,1 +1,1 @@
-# https://okooba.github.io/rsschool-cv/cv
+# https://okooba.github.io/rsschool-cv/
